@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 #include <conio.h>
-#include <cstdlib>
+// #include <cstdlib>
 
 char square[10] = { 'o', '1', '2', '3', '4', '5', '6', '7', '8', '9' };
 
@@ -116,7 +116,7 @@ int checkwin()
 
 void board()
 {
-    system("cls");
+    // system("cls");
     printf("\n\n   \xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\n");
     printf("\t   Tic Tac Toe");
     printf("\n   \xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\xcd\n\n");
